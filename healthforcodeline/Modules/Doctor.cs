@@ -201,9 +201,9 @@ namespace hospitalsystem.models
 
             var availability = new DoctorAvailability(Email, start, end);// Creates a new DoctorAvailability object with the doctor's email, start time, and end time
             HospitalData.Availabilities.Add(availability);
-            FileStorage.SaveToFile("availabilities.json", HospitalData.Availabilities);
+            FileStorage.SaveToFile("availabilities.json", HospitalData.Availabilities);// Saves the updated availabilities list to a JSON file
 
-            Console.WriteLine("✅ Availability set.");
+            Console.WriteLine(" Availability set.");
             Console.ReadKey();
         }
     }
