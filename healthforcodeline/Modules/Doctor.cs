@@ -129,7 +129,7 @@ namespace hospitalsystem.models
             Console.Write("Enter Prescription: ");
             string prescription = Console.ReadLine()!;// Reads the prescription from user input
 
-            var record = new PatientRecord(id, patient, FullName, diagnosis, prescription, DateTime.Now);
+            var record = new PatientRecord(id, patient, FullName, diagnosis, prescription, DateTime.Now);// Creates a new PatientRecord object with the provided details
             HospitalData.Records.Add(record);
             FileStorage.SaveToFile("records.json", HospitalData.Records);
 
