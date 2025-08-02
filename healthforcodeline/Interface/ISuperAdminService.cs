@@ -6,6 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace hospitalSystem.Interface
+
+
+
+    //The interface enables complete system administration capabilities including
+//user management, organizational structure configuration, and resource assignment,
+//following the system architecture requirements.
 {
     // ISuperAdminService.cs
     public interface ISuperAdminService
