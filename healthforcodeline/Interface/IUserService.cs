@@ -10,7 +10,7 @@ namespace hospitalSystem.Interface
     public interface IUserService
     {
         void CreateUser(User user);// user registration and account creation
-        User? GetUserByEmail(string email);
+        User? GetUserByEmail(string email);//retrieve users by their email address (nullable return)
         List<User> GetAllUsers();
     }
 }
