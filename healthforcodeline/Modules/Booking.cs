@@ -6,6 +6,8 @@ namespace hospitalsystem.models
 
     public class Booking
     {
+        // Unique identifier for the booking
+
         public int Id { get; set; }
         public string PatientEmail { get; set; }
         public string DoctorEmail { get; set; }
