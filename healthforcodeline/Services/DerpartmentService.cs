@@ -146,7 +146,7 @@ namespace hospitalsystem.services
             Console.ReadKey();
         }
 
-        public static void DeleteDepartment()
+        public static void DeleteDepartment()// This method allows the user to delete a department
         {
             Console.Write("Enter Department ID to delete: ");
             if (int.TryParse(Console.ReadLine(), out int id))
