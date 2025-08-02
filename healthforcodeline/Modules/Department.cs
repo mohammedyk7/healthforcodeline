@@ -10,7 +10,7 @@
         public Department(int id, string name)// Constructor with parameters for ID and name
         {
             Id = id;// Initialize the department's ID
-            Name = name;
+            Name = name;// Initialize the department's name
         }
 
         public void Display()
