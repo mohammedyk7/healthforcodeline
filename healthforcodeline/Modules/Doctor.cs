@@ -173,7 +173,7 @@ namespace hospitalsystem.models
 
             doctor.IsAvailable = !doctor.IsAvailable;// Toggles the doctor's availability status
             FileStorage.SaveToFile("doctors.json", HospitalData.Doctors);// Saves the updated doctors list to a JSON file
-            Console.WriteLine($"Doctor availability is now: {(doctor.IsAvailable ? " Available" : " Unavailable")}");
+            Console.WriteLine($"Doctor availability is now: {(doctor.IsAvailable ? " Available" : " Unavailable")}");// Displays the updated availability status of the doctor
             Console.ReadKey();
         }
 
