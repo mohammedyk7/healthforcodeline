@@ -11,7 +11,7 @@ namespace hospitalsystem.models
 
         public Doctor() { }// Default constructor
 
-        public Doctor(string fullName, string email)
+        public Doctor(string fullName, string email)// Constructor with parameters for full name and email
             : base(fullName, email, "default123")
         {
             Role = "Doctor";
