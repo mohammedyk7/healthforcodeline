@@ -1,12 +1,14 @@
 ﻿namespace hospitalsystem.models
-{
+{        // Represents a hospital branch with an ID, name, and location
+
     public class Branch
     {
+        // Unique identifier for the branch
+
         public int Id { get; set; }
         public string Name { get; set; }
         public string Location { get; set; }
 
-        // Represents a hospital branch with an ID, name, and location
 
         public Branch() { }
 
