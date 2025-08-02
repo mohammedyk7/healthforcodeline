@@ -13,6 +13,7 @@ namespace hospitalsystem.Interface
         // managing patient bookings in the hospital system. The interface includes
         public interface IBookingService
         {
+           // create new appointment records
             void AddBooking(Booking booking);
             List<Booking> GetAllBookings();
             List<Booking> GetBookingsByPatient(string patientName);
