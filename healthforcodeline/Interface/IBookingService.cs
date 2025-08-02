@@ -10,6 +10,7 @@ namespace hospitalsystem.Interface
 {
     interface IBookingService
     {
+        // managing patient bookings in the hospital system. The interface includes
         public interface IBookingService
         {
             void AddBooking(Booking booking);
