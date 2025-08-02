@@ -101,7 +101,7 @@ namespace hospitalsystem.models
 
         public void ViewMyRecords()// Displays the doctor's patient records
         {
-            var myRecords = HospitalData.Records.Where(r => r.DoctorName == FullName);
+            var myRecords = HospitalData.Records.Where(r => r.DoctorName == FullName);// Filters records where the doctor's name matches the current doctor's full name
             foreach (var record in myRecords)
                 record.Display();
 
