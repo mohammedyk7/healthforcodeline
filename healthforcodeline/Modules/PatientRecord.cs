@@ -21,6 +21,7 @@
         // Date of the visit
 
         public DateTime VisitDate { get; set; }
+        // Constructor to initialize the patient record
 
         public PatientRecord(int id, string patientName, string doctorName, string diagnosis, string prescription, DateTime visitDate)
         {
