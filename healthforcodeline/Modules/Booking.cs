@@ -15,6 +15,8 @@ namespace hospitalsystem.models
         // Email of the doctor assigned to the booking
 
         public string DoctorEmail { get; set; }
+        // ID of the clinic where the appointment is scheduled
+
         public int ClinicId { get; set; }
         public DateTime AppointmentDate { get; set; }
 
