@@ -175,7 +175,7 @@ namespace hospitalsystem.services
         public static void SearchDepartment()// This method allows the user to search for a department by ID or name
         {
             Console.Write("Enter Department ID to search: ");
-            if (int.TryParse(Console.ReadLine(), out int id))
+            if (int.TryParse(Console.ReadLine(), out int id))// Check if the input is a valid number
             {
                 var dept = HospitalData.Departments.FirstOrDefault(d => d.Id == id);
                 if (dept != null)
