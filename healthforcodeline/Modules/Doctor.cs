@@ -159,7 +159,7 @@ namespace hospitalsystem.models
             Console.WriteLine($"Doctor Name: {FullName}, Email: {Email}, Clinic ID: {ClinicId}, Available: {(IsAvailable ? " Yes" : " No")}");// Displays the doctor's full name, email, clinic ID, and availability status
         }
 
-        public static void ToggleDoctorAvailability()
+        public static void ToggleDoctorAvailability()// Prompts the user to enter a doctor's email and toggles their availability status
         {
             Console.Write("Enter Doctor Email to toggle availability: ");
             string email = Console.ReadLine()!;
