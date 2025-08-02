@@ -2,6 +2,7 @@
 {
     public class Admin : User
     {
+      // Admin class inherits from User and adds specific functionality for Admins
 
         public Admin() { }
 
