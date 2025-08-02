@@ -95,7 +95,7 @@ namespace hospitalsystem.services
             Console.ReadKey();
         }
 
-        private static void DeleteBranch()
+        private static void DeleteBranch()// Delete a branch based on user input
         {
             Console.Write("Enter Branch ID to delete: ");
             int id = int.Parse(Console.ReadLine()!);
