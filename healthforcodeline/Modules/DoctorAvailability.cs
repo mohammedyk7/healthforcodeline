@@ -23,9 +23,10 @@ namespace hospitalsystem.models
 
         public void Display()//display doctors availability
         {
-          
-        {
-            Console.WriteLine($"🕒 {StartTime} to {EndTime}");
+
+            {
+                Console.WriteLine($" {StartTime} to {EndTime}");
+            }
         }
     }
 }
