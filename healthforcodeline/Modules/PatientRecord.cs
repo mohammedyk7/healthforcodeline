@@ -18,6 +18,8 @@
         // Prescription given to the patient
 
         public string Prescription { get; set; }
+        // Date of the visit
+
         public DateTime VisitDate { get; set; }
 
         public PatientRecord(int id, string patientName, string doctorName, string diagnosis, string prescription, DateTime visitDate)
