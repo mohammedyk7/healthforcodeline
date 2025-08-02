@@ -22,7 +22,7 @@
         {
             Id = id;
             Name = name;
-            DepartmentId = departmentId;
+            DepartmentId = departmentId;// Initialize the clinic's department ID
             BranchId = branchId;
         }
 
