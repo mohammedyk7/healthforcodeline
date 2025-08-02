@@ -13,6 +13,7 @@
 
         public string Location { get; set; }
 
+        // Parameterless constructor (useful for deserialization or manual property setting)
 
         public Branch() { }
 
