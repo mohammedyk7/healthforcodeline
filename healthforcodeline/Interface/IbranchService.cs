@@ -13,7 +13,7 @@ namespace hospitalSystem.Interface
         void CreateBranch(Branch branch);// Create a new branch
         List<Branch> GetAllBranches();// Retrieve all branches
         Branch? GetBranchById(int id);// Retrieve a branch by its ID
-        void DeleteBranch(int id);
+        void DeleteBranch(int id);// Delete a branch by its ID
         void UpdateBranch(Branch branch);
     }
 }
