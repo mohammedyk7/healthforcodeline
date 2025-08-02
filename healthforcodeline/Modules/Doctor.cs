@@ -154,7 +154,7 @@ namespace hospitalsystem.models
             Console.WriteLine("Doctor added successfully.\n");
         }
 
-        public void Display()
+        public void Display()// Displays the doctor's information
         {
             Console.WriteLine($"Doctor Name: {FullName}, Email: {Email}, Clinic ID: {ClinicId}, Available: {(IsAvailable ? "✅ Yes" : "❌ No")}");
         }
