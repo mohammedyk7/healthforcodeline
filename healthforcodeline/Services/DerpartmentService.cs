@@ -30,19 +30,19 @@ namespace hospitalsystem.services
                 switch (choice)
                 {
                     case "1":
-                        AddDepartment();
+                        AddDepartment();// Add a new department
                         break;
                     case "2":
-                        ViewDepartments();
+                        ViewDepartments();// View all departments
                         break;
                     case "3":
-                        UpdateDepartment();
+                        UpdateDepartment();// Update an existing department
                         break;
                     case "4":
-                        DeleteDepartment();
+                        DeleteDepartment();// Delete a department
                         break;
                     case "5":
-                        SearchDepartment();
+                        SearchDepartment();// Search for a department by ID or name
                         break;
                     case "6":
                         return;
