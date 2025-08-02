@@ -47,6 +47,7 @@ namespace hospitalsystem.models
             IsCancelled = true;
             CancellationReason = reason;
         }
+        // Displays the booking details in a formatted way
 
         public void Display()
         {
