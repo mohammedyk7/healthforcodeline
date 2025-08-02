@@ -41,7 +41,7 @@ namespace hospitalsystem.services
             }
         }
 
-        public static void CreateBranch()
+        public static void CreateBranch()// Create a new branch with user input
         {
             Console.Write("Enter Branch ID: ");
             int id = int.Parse(Console.ReadLine()!);
