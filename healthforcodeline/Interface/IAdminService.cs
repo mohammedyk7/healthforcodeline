@@ -12,8 +12,9 @@ namespace hospitalSystem.Interface
     {
 
         //This commit introduces the IAdminService interface which defines the basic
-      //CRUD operations for Admin entities in the hospital system.The interface includes
+        //CRUD operations for Admin entities in the hospital system.The interface includes
 
+        //add new admin users
         void CreateAdmin(Admin admin);
         List<Admin> GetAllAdmins();
         Admin? GetAdminByEmail(string email);
