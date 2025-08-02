@@ -115,7 +115,7 @@ namespace hospitalsystem.models
             Console.ReadKey();
         }
 
-        public void WritePatientRecord()
+        public void WritePatientRecord()// Prompts the doctor to enter details for a new patient record
         {
             Console.Write("Enter Record ID: ");
             int id = int.Parse(Console.ReadLine()!);
