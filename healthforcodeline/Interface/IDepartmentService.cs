@@ -14,6 +14,6 @@ namespace hospitalSystem.Interface
         List<Department> GetAllDepartments();// Retrieve all departments
         Department? GetDepartmentById(int id);// Retrieve a department by its ID
         void DeleteDepartment(int id);// Delete a department by its ID
-        void UpdateDepartment(Department department);
+        void UpdateDepartment(Department department);// Update an existing department
     }
 }
