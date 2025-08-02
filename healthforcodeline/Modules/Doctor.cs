@@ -9,7 +9,7 @@ namespace hospitalsystem.models
         public int ClinicId { get; set; } = 0;// Identifier for the clinic the doctor is associated with
         public bool IsAvailable { get; set; } = true;// Indicates whether the doctor is available for appointments
 
-        public Doctor() { }
+        public Doctor() { }// Default constructor
 
         public Doctor(string fullName, string email)
             : base(fullName, email, "default123")
