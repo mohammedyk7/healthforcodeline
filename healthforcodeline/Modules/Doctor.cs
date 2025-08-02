@@ -148,7 +148,7 @@ namespace hospitalsystem.models
             int clinicId = int.Parse(Console.ReadLine()!);
 
             var doctor = new Doctor(name, email, "123", clinicId);// Creates a new Doctor object with the provided details
-            HospitalData.Doctors.Add(doctor);
+            HospitalData.Doctors.Add(doctor);// Adds the new doctor to the hospital data doctors list
             FileStorage.SaveToFile("doctors.json", HospitalData.Doctors);
 
             Console.WriteLine("Doctor added successfully.\n");
