@@ -107,7 +107,7 @@ namespace hospitalsystem.models
 
             Console.WriteLine($"[DEBUG] Current Doctor Name: {FullName}");// Displays the current doctor's full name for debugging purposes
             Console.WriteLine($"[DEBUG] Total Records: {HospitalData.Records.Count}");
-
+            // Displays the total number of records for debugging purposes
             foreach (var r in HospitalData.Records)
             {
                 Console.WriteLine($"[DEBUG] Record -> DoctorName: {r.DoctorName}");
