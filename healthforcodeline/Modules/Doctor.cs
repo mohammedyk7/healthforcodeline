@@ -56,7 +56,7 @@ namespace hospitalsystem.models
                         WritePatientRecord();// Write a new patient record
                         break;
                     case "3":
-                        ViewMyRecords();
+                        ViewMyRecords();// View the doctor's patient records
                         break;
                     case "4":
                         SetAvailability();
