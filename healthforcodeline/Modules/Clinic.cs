@@ -12,7 +12,7 @@
 
         public Clinic() { }  // Default constructor
 
-        public Clinic(int id, string name, int branchId)
+        public Clinic(int id, string name, int branchId)// Constructor with parameters for ID, name, and branch ID
         {
             Id = id;
             Name = name;
