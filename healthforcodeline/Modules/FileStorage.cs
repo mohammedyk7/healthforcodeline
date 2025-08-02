@@ -27,6 +27,7 @@ namespace hospitalsystem.models
         {
             return LoadFromFile<Doctor>("doctors.json");
         }
+        //Loads all patient records from "patients.json".
 
         public static List<Patient> LoadPatients()
         {
