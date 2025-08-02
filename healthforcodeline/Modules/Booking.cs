@@ -21,6 +21,7 @@ namespace hospitalsystem.models
         // Date and time of the appointment
 
         public DateTime AppointmentDate { get; set; }
+        // Indicates if the booking has been cancelled
 
         public bool IsCancelled { get; set; } = false;
         public string? CancellationReason { get; set; }
