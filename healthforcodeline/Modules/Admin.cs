@@ -6,6 +6,7 @@
         // Parameterless constructor for file deserialization or default initialization
 
         public Admin() { }
+        // Constructor for creating a new Admin with full name, email, and password
 
         public Admin(string fullName, string email, string password)
     : base(fullName, email, password)
