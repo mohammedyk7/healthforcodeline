@@ -4,6 +4,8 @@ namespace hospitalsystem.models
 {
     public static class FileStorage
     {
+        // Static utility class for handling generic and specific file operations (serialization and deserialization)
+
         public static void SaveToFile<T>(string fileName, List<T> data)
         {
             var json = JsonSerializer.Serialize(data, new JsonSerializerOptions { WriteIndented = true });
