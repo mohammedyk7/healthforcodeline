@@ -15,7 +15,7 @@
 
         public void Display()// Method to display department information
         {
-            Console.WriteLine($"Department #{Id}: {Name}");
+            Console.WriteLine($"Department #{Id}: {Name}");// Display the department's ID and name
         }
     }
 }
