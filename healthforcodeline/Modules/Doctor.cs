@@ -53,7 +53,7 @@ namespace hospitalsystem.models
                         ViewMyAppointments();// View the doctor's appointments
                         break;
                     case "2":
-                        WritePatientRecord();
+                        WritePatientRecord();// Write a new patient record
                         break;
                     case "3":
                         ViewMyRecords();
