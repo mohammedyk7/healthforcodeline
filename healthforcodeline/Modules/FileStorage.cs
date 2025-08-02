@@ -21,6 +21,8 @@ namespace hospitalsystem.models
         }
 
         // ✅ Specific loaders
+        // Loads all doctor records from "doctors.json".
+
         public static List<Doctor> LoadDoctors()
         {
             return LoadFromFile<Doctor>("doctors.json");
