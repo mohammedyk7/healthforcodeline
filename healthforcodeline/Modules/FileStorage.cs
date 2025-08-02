@@ -33,6 +33,7 @@ namespace hospitalsystem.models
         {
             return LoadFromFile<Patient>("patients.json");
         }
+        // Loads all booking records from "bookings.json".
 
         public static List<Booking> LoadBookings()
         {
