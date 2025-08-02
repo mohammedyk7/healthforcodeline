@@ -186,7 +186,7 @@ namespace hospitalsystem.models
                 return;
             }
 
-            Console.Write("Enter end time (yyyy-MM-dd HH:mm): ");
+            Console.Write("Enter end time (yyyy-MM-dd HH:mm): ");// Prompts the doctor to enter the end time of their availability
             if (!DateTime.TryParse(Console.ReadLine(), out DateTime end))
             {
                 Console.WriteLine("❌ Invalid end time.");
