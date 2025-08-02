@@ -16,6 +16,7 @@
             BranchId = branchId;
             DepartmentId = departmentId;
         }
+        // Display method to show the relationship in a readable format
 
         public void Display()
         {
