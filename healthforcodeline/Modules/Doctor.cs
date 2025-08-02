@@ -50,7 +50,7 @@ namespace hospitalsystem.models
                 switch (choice)
                 {
                     case "1":
-                        ViewMyAppointments();
+                        ViewMyAppointments();// View the doctor's appointments
                         break;
                     case "2":
                         WritePatientRecord();
