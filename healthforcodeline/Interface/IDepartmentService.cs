@@ -11,7 +11,7 @@ namespace hospitalSystem.Interface
     public interface IDepartmentService// Interface for department management operations
     {
         void CreateDepartment(Department department);// Create a new department
-        List<Department> GetAllDepartments();
+        List<Department> GetAllDepartments();// Retrieve all departments
         Department? GetDepartmentById(int id);
         void DeleteDepartment(int id);
         void UpdateDepartment(Department department);
