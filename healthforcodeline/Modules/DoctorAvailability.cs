@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace hospitalsystem.models
 {
-    public class DoctorAvailability
+    public class DoctorAvailability// Represents the availability of a doctor
     {
         public string DoctorEmail { get; set; }
         public DateTime StartTime { get; set; }
