@@ -12,6 +12,7 @@ namespace hospitalSystem.Interface
     {
         //register new super admin accounts
         void CreateSuperAdmin(SuperAdmin superAdmin);
+        //to list all super admins
         List<SuperAdmin> GetAllSuperAdmins();
         SuperAdmin? GetSuperAdminByEmail(string email);
 
