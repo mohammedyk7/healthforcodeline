@@ -12,7 +12,7 @@ namespace hospitalsystem.models
         public DateTime StartTime { get; set; }  // Start time of the doctor's availability
         public DateTime EndTime { get; set; }// End time of the doctor's availability
 
-        public DoctorAvailability() { }
+        public DoctorAvailability() { }// Default constructor
 
         public DoctorAvailability(string email, DateTime start, DateTime end)
         {
