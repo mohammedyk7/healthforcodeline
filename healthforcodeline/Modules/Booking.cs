@@ -31,6 +31,7 @@ namespace hospitalsystem.models
         // Parameterless constructor (useful for deserialization or manual setting)
 
         public Booking() { }
+        // Constructor for creating a booking with required details
 
         public Booking(int id, string patientEmail, string doctorEmail, int clinicId, DateTime appointmentDate)
         {
