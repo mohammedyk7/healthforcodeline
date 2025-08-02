@@ -17,7 +17,7 @@ namespace hospitalsystem.models
             Role = "Doctor";
         }
 
-        public Doctor(string fullName, string email, string password, int clinicId)
+        public Doctor(string fullName, string email, string password, int clinicId)// Constructor with parameters for full name, email, password, and clinic ID
             : base(fullName, email, password)
         {
             Role = "Doctor";
