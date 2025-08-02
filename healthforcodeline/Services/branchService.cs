@@ -57,7 +57,7 @@ namespace hospitalsystem.services
             Console.ReadKey();
         }
 
-        public static void ViewAllBranches()
+        public static void ViewAllBranches()// Display all branches in the hospital data
         {
             if (HospitalData.Branches.Count == 0)
             {
