@@ -6,6 +6,8 @@
         // The ID of the branch in the relationship
 
         public int BranchId { get; set; }
+        // The ID of the department in the relationship
+
         public int DepartmentId { get; set; }
 
         public BranchDepartment(int branchId, int departmentId)
