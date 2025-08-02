@@ -18,8 +18,10 @@ namespace hospitalSystem.Interface
         SuperAdmin? GetSuperAdminByEmail(string email);
 
         // Additional methods based on your diagram:
-        void CreateBranch(Branch branch);
+
         // add new hospital branches
+        void CreateBranch(Branch branch);
+      
         void AssignDepartmentToBranch(int departmentId, int branchId);
         void AssignBranchToDepartment(int branchId, int departmentId);
         void AssignDoctorToClinic(int doctorId, int clinicId);
