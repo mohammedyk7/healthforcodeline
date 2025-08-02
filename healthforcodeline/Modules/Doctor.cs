@@ -144,7 +144,7 @@ namespace hospitalsystem.models
             Console.Write("Enter Doctor Email: ");// Prompts the user to enter the doctor's email
             string email = Console.ReadLine()!;
 
-            Console.Write("Enter Clinic ID: ");
+            Console.Write("Enter Clinic ID: ");// Prompts the user to enter the clinic ID where the doctor will work
             int clinicId = int.Parse(Console.ReadLine()!);
 
             var doctor = new Doctor(name, email, "123", clinicId);
