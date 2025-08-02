@@ -7,7 +7,7 @@ namespace hospitalsystem.services
 {
     public static class branchService
     {
-        public static void RunBranchService()
+        public static void RunBranchService()// Branch service menu for managing hospital branches
         {
             while (true)
             {

@@ -10,6 +10,7 @@
         public static List<PatientRecord> Records { get; set; } = new();
         public static List<Doctor> Doctors { get; set; } = new();
         public static List<Admin> Admins = new();
+        public static List<DoctorAvailability> Availabilities { get; set; } = new List<DoctorAvailability>();
 
 
 
