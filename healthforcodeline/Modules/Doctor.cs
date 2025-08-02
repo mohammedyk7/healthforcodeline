@@ -29,7 +29,7 @@ namespace hospitalsystem.models
 
       
 
-             public override void DisplayMenu()
+             public override void DisplayMenu()// Displays the doctor's menu options
         {
             while (true)
             {
