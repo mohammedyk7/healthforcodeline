@@ -61,7 +61,7 @@ namespace hospitalsystem.services
                 Console.Write("Enter Department ID: ");
                 int id = int.Parse(Console.ReadLine());
 
-                if (HospitalData.Departments.Any(d => d.Id == id))
+                if (HospitalData.Departments.Any(d => d.Id == id))// Check if the department ID already exists
                 {
                     Console.WriteLine("❌ Department ID already exists.");
                     Console.ReadKey();
