@@ -27,6 +27,8 @@ namespace hospitalSystem.Interface
         void AssignDoctorToClinic(int doctorId, int clinicId);
         //list all branches
         List<Branch> GetAllBranches();
+
+        //for department enumeration
         List<Department> GetAllDepartments();
         List<Doctor> GetAllDoctors();
     }
