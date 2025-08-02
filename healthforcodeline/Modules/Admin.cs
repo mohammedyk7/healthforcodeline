@@ -22,7 +22,8 @@
         {
             while (true)
             {
-                
+                // Display Admin menu UI
+
                 Console.WriteLine("╔══════════════════════════════════════╗");
                 Console.WriteLine("║                ADMIN MENU            ║");
                 Console.WriteLine("╠══════════════════════════════════════╣");
