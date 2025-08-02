@@ -12,6 +12,9 @@ namespace hospitalSystem.Interface
 
         // the IPatientRecordService interface to handle operations
         //related to patient medical records
+
+
+        //create new patient medical records
         void AddRecord(PatientRecord record);
         List<PatientRecord> GetAllRecords();
         PatientRecord? GetRecordById(int id);
