@@ -51,7 +51,7 @@ namespace hospitalsystem.services
             string location = Console.ReadLine()!;
 
             var branch = new Branch(id, name, location);// Create a new Branch object
-            HospitalData.Branches.Add(branch);
+            HospitalData.Branches.Add(branch);// Add the new branch to the hospital data
             FileStorage.SaveToFile("branches.json", HospitalData.Branches);
             Console.WriteLine("✅ Branch created.");
             Console.ReadKey();
