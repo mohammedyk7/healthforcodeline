@@ -90,7 +90,7 @@ namespace hospitalsystem.models
             Console.WriteLine($"[DEBUG] Current Doctor Email: {Email}");
             Console.WriteLine($"[DEBUG] Total Bookings: {HospitalData.Bookings.Count}");
 
-            foreach (var b in HospitalData.Bookings)
+            foreach (var b in HospitalData.Bookings)// Iterates through all bookings to display their doctor email
             {
                 Console.WriteLine($"[DEBUG] Booking -> DoctorEmail: {b.DoctorEmail}");
             }
