@@ -6,6 +6,8 @@
         // Unique identifier for the patient record
 
         public int Id { get; set; }
+        // Name of the patient (can be changed to PatientEmail or ID for better tracking)
+
         public string PatientName { get; set; }
         public string DoctorName { get; set; }
         public string Diagnosis { get; set; }
