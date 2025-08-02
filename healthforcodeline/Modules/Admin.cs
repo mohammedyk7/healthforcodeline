@@ -35,6 +35,7 @@
 
                 string choice = Console.ReadLine()!;
                 Console.Clear();
+                // Handle user input
 
                 switch (choice)
                 {
