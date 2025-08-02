@@ -17,6 +17,8 @@ namespace hospitalsystem.Interface
             void AddBooking(Booking booking);
             // to retrieve all booking entries
             List<Booking> GetAllBookings();
+            //to filter bookings by patient name
+
             List<Booking> GetBookingsByPatient(string patientName);
         }
 
