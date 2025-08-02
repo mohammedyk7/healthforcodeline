@@ -99,7 +99,7 @@ namespace hospitalsystem.services
         {
             Console.Write("Enter Branch ID to delete: ");
             int id = int.Parse(Console.ReadLine()!);
-            var branch = HospitalData.Branches.FirstOrDefault(b => b.Id == id);
+            var branch = HospitalData.Branches.FirstOrDefault(b => b.Id == id);// Find the branch by ID
 
             if (branch == null)
             {
