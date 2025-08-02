@@ -6,6 +6,8 @@
         // Unique identifier for the branch
 
         public int Id { get; set; }
+        // Name of the branch (e.g., "Silaf Main Branch")
+
         public string Name { get; set; }
         public string Location { get; set; }
 
