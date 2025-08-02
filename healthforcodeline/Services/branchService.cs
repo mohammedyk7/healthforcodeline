@@ -27,11 +27,11 @@ namespace hospitalsystem.services
 
                 switch (input)
                 {
-                    case "1": CreateBranch(); break;
-                    case "2": ViewAllBranches(); break;
-                    case "3": UpdateBranch(); break;
-                    case "4": DeleteBranch(); break;
-                    case "5": SearchBranchById(); break;
+                    case "1": CreateBranch(); break;// Create a new branch
+                    case "2": ViewAllBranches(); break;// View all branches
+                    case "3": UpdateBranch(); break;// Update an existing branch
+                    case "4": DeleteBranch(); break;// Delete a branch
+                    case "5": SearchBranchById(); break;// Search for a branch by ID
                     case "6": return;
                     default:
                         Console.WriteLine("⚠️ Invalid selection.");
