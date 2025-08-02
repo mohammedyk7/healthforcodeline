@@ -16,7 +16,9 @@ namespace hospitalSystem.Interface
 
         //add new admin users
         void CreateAdmin(Admin admin);
-        List<Admin> GetAllAdmins();
+
+     //   to retrieve all admin records
+       List<Admin> GetAllAdmins();
         Admin? GetAdminByEmail(string email);
     }
 }
