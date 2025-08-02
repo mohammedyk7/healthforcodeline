@@ -2,10 +2,10 @@
 {
     public abstract class User// Represents a user in the hospital system
     {
-        public string FullName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string Role { get; set; }
+        public string FullName { get; set; }// Full name of the user
+        public string Email { get; set; }// Email address of the user
+        public string Password { get; set; }// Password for the user account
+        public string Role { get; set; }// Role of the user (e.g., Doctor, Patient, Admin)
 
         public User() { }
 
