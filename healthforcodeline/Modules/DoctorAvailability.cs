@@ -8,9 +8,9 @@ namespace hospitalsystem.models
 {
     public class DoctorAvailability// Represents the availability of a doctor
     {
-        public string DoctorEmail { get; set; }
-        public DateTime StartTime { get; set; }
-        public DateTime EndTime { get; set; }
+        public string DoctorEmail { get; set; }// Email of the doctor
+        public DateTime StartTime { get; set; }  // Start time of the doctor's availability
+        public DateTime EndTime { get; set; }// End time of the doctor's availability
 
         public DoctorAvailability() { }
 
