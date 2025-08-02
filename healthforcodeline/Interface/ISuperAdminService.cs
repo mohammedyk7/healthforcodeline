@@ -30,6 +30,7 @@ namespace hospitalSystem.Interface
 
         //for department enumeration
         List<Department> GetAllDepartments();
+        // doctor directory access
         List<Doctor> GetAllDoctors();
     }
 }
