@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace hospitalSystem.Interface
 {
     // IBranchService.cs
-    public interface IBranchService
+    public interface IBranchService // Interface for branch management operations
     {
         void CreateBranch(Branch branch);
         List<Branch> GetAllBranches();
