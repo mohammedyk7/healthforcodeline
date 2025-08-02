@@ -189,13 +189,13 @@ namespace hospitalsystem.models
             Console.Write("Enter end time (yyyy-MM-dd HH:mm): ");// Prompts the doctor to enter the end time of their availability
             if (!DateTime.TryParse(Console.ReadLine(), out DateTime end))// Tries to parse the end time from user input
             {
-                Console.WriteLine("❌ Invalid end time.");
+                Console.WriteLine(" Invalid end time.");
                 return;
             }
 
-            if (end <= start)
+            if (end <= start)// Checks if the end time is before or equal to the start time
             {
-                Console.WriteLine("❌ End time must be after start time.");
+                Console.WriteLine(" End time must be after start time.");
                 return;
             }
 
