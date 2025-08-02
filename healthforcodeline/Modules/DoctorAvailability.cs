@@ -21,7 +21,9 @@ namespace hospitalsystem.models
             EndTime = end;// Initialize the end time of availability
         }
 
-        public void Display()
+        public void Display()//display doctors availability
+        {
+          
         {
             Console.WriteLine($"🕒 {StartTime} to {EndTime}");
         }
