@@ -9,7 +9,7 @@ namespace hospitalsystem.services
 
         public DoctorService(Doctor doctor)// Constructor that initializes the DoctorService with a specific doctor
         {
-            _doctor = doctor;
+            _doctor = doctor;// Store the doctor instance for later use
         }
 
 
