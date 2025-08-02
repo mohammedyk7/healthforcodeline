@@ -18,6 +18,7 @@ namespace hospitalSystem.Interface
         void AddRecord(PatientRecord record);
         //retrieve all existing records
         List<PatientRecord> GetAllRecords();
+       // to find all records for a particular patient
         PatientRecord? GetRecordById(int id);
         List<PatientRecord> GetRecordsByPatientId(int patientId);
     }
