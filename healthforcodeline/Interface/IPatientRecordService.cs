@@ -8,7 +8,10 @@ using System.Threading.Tasks;
 namespace hospitalSystem.Interface
 {
     public interface IPatientRecordService
-    {
+    {//
+
+        // the IPatientRecordService interface to handle operations
+        //related to patient medical records
         void AddRecord(PatientRecord record);
         List<PatientRecord> GetAllRecords();
         PatientRecord? GetRecordById(int id);
