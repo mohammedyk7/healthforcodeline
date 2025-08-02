@@ -114,11 +114,11 @@ namespace hospitalsystem.services
             Console.ReadKey();
         }
 
-        private static void SearchBranchById()
+        private static void SearchBranchById()// Search for a branch by its ID
         {
             Console.Write("Enter Branch ID to search: ");
             int id = int.Parse(Console.ReadLine()!);
-            var branch = HospitalData.Branches.FirstOrDefault(b => b.Id == id);
+            var branch = HospitalData.Branches.FirstOrDefault(b => b.Id == id);// Find the branch by ID
 
             if (branch == null)
             {
