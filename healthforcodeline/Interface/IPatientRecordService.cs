@@ -10,16 +10,18 @@ namespace hospitalSystem.Interface
     public interface IPatientRecordService
     {//
 
-        // the IPatientRecordService interface to handle operations
-        //related to patient medical records
+       // The interface will serve as the foundation for implementing patient record
+//management functionality, enabling CRUD operations and patient-specific record
+//retrieval in the hospital system
 
 
         //create new patient medical records
         void AddRecord(PatientRecord record);
         //retrieve all existing records
         List<PatientRecord> GetAllRecords();
-       // to find all records for a particular patient
+        // to find all records for a particular patient
         PatientRecord? GetRecordById(int id);
+
         List<PatientRecord> GetRecordsByPatientId(int patientId);
     }
 }
