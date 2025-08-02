@@ -1,6 +1,6 @@
 ﻿namespace hospitalsystem.models
 {
-    public abstract class User
+    public abstract class User// Represents a user in the hospital system
     {
         public string FullName { get; set; }
         public string Email { get; set; }
