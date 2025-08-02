@@ -9,7 +9,7 @@
 
         public User() { }// Default constructor
 
-        public User(string fullName, string email, string password)
+        public User(string fullName, string email, string password)// Constructor with parameters for full name, email, and password
         {
             FullName = fullName;
             Email = email;
