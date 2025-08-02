@@ -16,6 +16,7 @@
         // Parameterless constructor (useful for deserialization or manual property setting)
 
         public Branch() { }
+        // Constructor to create a branch with specific values
 
         public Branch(int id, string name, string location)
         {
