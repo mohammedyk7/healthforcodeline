@@ -8,7 +8,7 @@ namespace hospitalsystem.services
 
 
 
-        public static void DisplayDepartmentMenu()
+        public static void DisplayDepartmentMenu()// This method displays the department management menu and handles user input
         {
             while (true)
             {
