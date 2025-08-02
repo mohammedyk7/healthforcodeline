@@ -199,7 +199,7 @@ namespace hospitalsystem.models
                 return;
             }
 
-            var availability = new DoctorAvailability(Email, start, end);
+            var availability = new DoctorAvailability(Email, start, end);// Creates a new DoctorAvailability object with the doctor's email, start time, and end time
             HospitalData.Availabilities.Add(availability);
             FileStorage.SaveToFile("availabilities.json", HospitalData.Availabilities);
 
