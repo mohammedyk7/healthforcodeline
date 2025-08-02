@@ -14,6 +14,7 @@ namespace hospitalSystem.Interface
         void CreateSuperAdmin(SuperAdmin superAdmin);
         //to list all super admins
         List<SuperAdmin> GetAllSuperAdmins();
+        // find admins by email
         SuperAdmin? GetSuperAdminByEmail(string email);
 
         // Additional methods based on your diagram:
