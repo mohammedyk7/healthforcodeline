@@ -32,6 +32,7 @@
             Prescription = prescription;
             VisitDate = visitDate;
         }
+        // Display the record details in a readable format
 
         public void Display()
         {
