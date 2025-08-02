@@ -13,7 +13,7 @@ namespace hospitalSystem.Interface
         void CreateDepartment(Department department);// Create a new department
         List<Department> GetAllDepartments();// Retrieve all departments
         Department? GetDepartmentById(int id);// Retrieve a department by its ID
-        void DeleteDepartment(int id);
+        void DeleteDepartment(int id);// Delete a department by its ID
         void UpdateDepartment(Department department);
     }
 }
