@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace hospitalsystem.models
 {
-    public class Doctor : User
+    public class Doctor : User// Represents a doctor in the hospital system, inheriting from User
     {
         public int ClinicId { get; set; } = 0;
         public bool IsAvailable { get; set; } = true;
