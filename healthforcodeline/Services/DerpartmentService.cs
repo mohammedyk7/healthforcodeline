@@ -54,7 +54,7 @@ namespace hospitalsystem.services
             }
         }
 
-        public static void AddDepartment()
+        public static void AddDepartment()// This method allows the user to add a new department
         {
             try
             {
