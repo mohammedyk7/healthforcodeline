@@ -59,7 +59,7 @@ namespace hospitalsystem.models
                         ViewMyRecords();// View the doctor's patient records
                         break;
                     case "4":
-                        SetAvailability();
+                        SetAvailability();// Set the doctor's availability
                         break;
                     case "5":
                         return;
