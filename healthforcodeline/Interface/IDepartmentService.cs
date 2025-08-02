@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace hospitalSystem.Interface
 {
     // IDepartmentService.cs
-    public interface IDepartmentService
+    public interface IDepartmentService// Interface for department management operations
     {
         void CreateDepartment(Department department);
         List<Department> GetAllDepartments();
