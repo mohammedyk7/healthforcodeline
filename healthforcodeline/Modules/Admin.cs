@@ -17,6 +17,7 @@
 
         public string Id { get; set; } = Guid.NewGuid().ToString();
 
+        // DisplayMenu method shows options specific to Admin
         public override void DisplayMenu()
         {
             while (true)
