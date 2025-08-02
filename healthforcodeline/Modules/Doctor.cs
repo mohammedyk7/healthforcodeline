@@ -182,7 +182,7 @@ namespace hospitalsystem.models
             Console.Write("Enter start time (yyyy-MM-dd HH:mm): ");// Prompts the doctor to enter the start time of their availability
             if (!DateTime.TryParse(Console.ReadLine(), out DateTime start))// Tries to parse the start time from user input
             {
-                Console.WriteLine("❌ Invalid start time.");
+                Console.WriteLine(" Invalid start time.");//   Displays an error message if the start time is invalid
                 return;
             }
 
