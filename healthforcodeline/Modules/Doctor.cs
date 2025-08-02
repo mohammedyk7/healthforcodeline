@@ -84,7 +84,7 @@ namespace hospitalsystem.models
                 return;
             }
 
-            foreach (var booking in myBookings)
+            foreach (var booking in myBookings)// Iterates through each booking and displays its details
                 booking.Display();
 
             Console.WriteLine($"[DEBUG] Current Doctor Email: {Email}");
