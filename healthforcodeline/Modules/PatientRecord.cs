@@ -15,6 +15,8 @@
         // Diagnosis provided by the doctor
 
         public string Diagnosis { get; set; }
+        // Prescription given to the patient
+
         public string Prescription { get; set; }
         public DateTime VisitDate { get; set; }
 
