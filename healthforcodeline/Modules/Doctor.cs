@@ -121,7 +121,7 @@ namespace hospitalsystem.models
             int id = int.Parse(Console.ReadLine()!);// Parses the record ID from user input
 
             Console.Write("Enter Patient Name: ");
-            string patient = Console.ReadLine()!;
+            string patient = Console.ReadLine()!;// Reads the patient's name from user input
 
             Console.Write("Enter Diagnosis: ");
             string diagnosis = Console.ReadLine()!;
