@@ -107,7 +107,7 @@ namespace hospitalsystem.services
             }
             else
             {
-                HospitalData.Branches.Remove(branch);
+                HospitalData.Branches.Remove(branch);// Remove the branch from the list
                 FileStorage.SaveToFile("branches.json", HospitalData.Branches);
                 Console.WriteLine("✅ Branch deleted.");
             }
