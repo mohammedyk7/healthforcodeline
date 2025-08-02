@@ -177,7 +177,7 @@ namespace hospitalsystem.models
             Console.ReadKey();
         }
 
-        public void SetAvailability()
+        public void SetAvailability()// Prompts the doctor to set their availability for appointments
         {
             Console.Write("Enter start time (yyyy-MM-dd HH:mm): ");
             if (!DateTime.TryParse(Console.ReadLine(), out DateTime start))
