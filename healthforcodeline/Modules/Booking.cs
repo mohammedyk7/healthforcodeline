@@ -18,6 +18,8 @@ namespace hospitalsystem.models
         // ID of the clinic where the appointment is scheduled
 
         public int ClinicId { get; set; }
+        // Date and time of the appointment
+
         public DateTime AppointmentDate { get; set; }
 
         public bool IsCancelled { get; set; } = false;
