@@ -5,7 +5,7 @@
         public int Id { get; set; }// Unique identifier for the department
         public string Name { get; set; }// Name of the department
 
-        public Department() { }
+        public Department() { }// Default constructor
 
         public Department(int id, string name)
         {
