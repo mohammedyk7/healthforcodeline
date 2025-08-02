@@ -7,7 +7,7 @@
         public string Password { get; set; }// Password for the user account
         public string Role { get; set; }// Role of the user (e.g., Doctor, Patient, Admin)
 
-        public User() { }
+        public User() { }// Default constructor
 
         public User(string fullName, string email, string password)
         {
