@@ -15,5 +15,5 @@ namespace hospitalSystem.Interface
         Branch? GetBranchById(int id);// Retrieve a branch by its ID
         void DeleteBranch(int id);// Delete a branch by its ID
         void UpdateBranch(Branch branch);
-    }
+    }// Interface for updating a branch
 }
