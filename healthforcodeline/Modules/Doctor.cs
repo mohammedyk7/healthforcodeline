@@ -92,7 +92,7 @@ namespace hospitalsystem.models
 
             foreach (var b in HospitalData.Bookings)// Iterates through all bookings to display their doctor email
             {
-                Console.WriteLine($"[DEBUG] Booking -> DoctorEmail: {b.DoctorEmail}");
+                Console.WriteLine($"[DEBUG] Booking -> DoctorEmail: {b.DoctorEmail}");// Displays the doctor email associated with each booking
             }
 
             Console.ReadKey();  
