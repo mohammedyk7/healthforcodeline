@@ -82,10 +82,12 @@
             else
             {
                 Console.Write("Enter New Clinic ID: ");
-                int clinicId = int.Parse(Console.ReadLine()!);
+                int clinicId = int.Parse(Console.ReadLine()!);// Read new clinic ID
 
-                doctor.ClinicId = clinicId; // Read new clinic ID
-               // Update the doctor's clinic assignment
+                doctor.ClinicId = clinicId; 
+                                            // Update the doctor's clinic assignment
+
+                // Save updated doctor list to file
 
                 FileStorage.SaveToFile("doctors.json", HospitalData.Doctors);
 
