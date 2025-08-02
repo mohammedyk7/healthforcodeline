@@ -9,6 +9,7 @@
         // The ID of the department in the relationship
 
         public int DepartmentId { get; set; }
+        // Constructor to initialize the relationship between a branch and a department
 
         public BranchDepartment(int branchId, int departmentId)
         {
