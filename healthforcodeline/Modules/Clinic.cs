@@ -16,7 +16,7 @@
         {
             Id = id;// Initialize the clinic's ID
             Name = name;// Initialize the clinic's name
-            BranchId = branchId;
+            BranchId = branchId;// Initialize the clinic's branch ID
         }
         public Clinic(int id, string name, int departmentId, int branchId)
         {
