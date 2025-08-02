@@ -94,7 +94,7 @@ namespace hospitalsystem.services
         }
 
 
-        public static void ViewDepartments()
+        public static void ViewDepartments()// This method displays all departments in the hospital data
         {
             if (!HospitalData.Departments.Any())
             {
