@@ -18,7 +18,7 @@ namespace hospitalsystem.services
         public void DisplayDoctorMenu()// This method displays the doctor's menu and handles their actions
         {
             // your doctor menu logic here
-            Console.WriteLine($"👨‍⚕️ Welcome Dr. {_doctor.FullName}");
+            Console.WriteLine($"👨‍⚕️ Welcome Dr. {_doctor.FullName}");// Display a welcome message with the doctor's name
         }
 
 
