@@ -14,7 +14,7 @@ namespace hospitalsystem.models
 
         public DoctorAvailability() { }// Default constructor
 
-        public DoctorAvailability(string email, DateTime start, DateTime end)
+        public DoctorAvailability(string email, DateTime start, DateTime end)// Constructor with parameters for doctor's email, start time, and end time
         {
             DoctorEmail = email;
             StartTime = start;
