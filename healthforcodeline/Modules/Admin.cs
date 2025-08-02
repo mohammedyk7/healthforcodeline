@@ -71,6 +71,7 @@
         {
             Console.Write("Enter Doctor Email: ");
             string email = Console.ReadLine()!;
+            // Find the doctor by email (case insensitive)
 
             var doctor = HospitalData.Doctors.FirstOrDefault(d => d.Email.Equals(email, StringComparison.OrdinalIgnoreCase));
 
