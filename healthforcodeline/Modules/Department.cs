@@ -13,7 +13,7 @@
             Name = name;// Initialize the department's name
         }
 
-        public void Display()
+        public void Display()// Method to display department information
         {
             Console.WriteLine($"Department #{Id}: {Name}");
         }
