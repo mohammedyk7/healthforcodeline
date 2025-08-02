@@ -7,7 +7,7 @@ namespace hospitalsystem.services
     {
         public Doctor _doctor;
 
-        public DoctorService(Doctor doctor)
+        public DoctorService(Doctor doctor)// Constructor that initializes the DoctorService with a specific doctor
         {
             _doctor = doctor;
         }
