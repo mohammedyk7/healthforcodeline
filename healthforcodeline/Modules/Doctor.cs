@@ -156,7 +156,7 @@ namespace hospitalsystem.models
 
         public void Display()// Displays the doctor's information
         {
-            Console.WriteLine($"Doctor Name: {FullName}, Email: {Email}, Clinic ID: {ClinicId}, Available: {(IsAvailable ? "✅ Yes" : "❌ No")}");
+            Console.WriteLine($"Doctor Name: {FullName}, Email: {Email}, Clinic ID: {ClinicId}, Available: {(IsAvailable ? " Yes" : " No")}");// Displays the doctor's full name, email, clinic ID, and availability status
         }
 
         public static void ToggleDoctorAvailability()
