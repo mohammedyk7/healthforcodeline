@@ -64,7 +64,8 @@
             }
         }
 
-       
+
+        // Method to assign a doctor to a clinic
 
         public void AssignDoctorToClinic()
         {
