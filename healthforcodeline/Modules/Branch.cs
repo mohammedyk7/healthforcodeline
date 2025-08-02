@@ -9,6 +9,8 @@
         // Name of the branch (e.g., "Silaf Main Branch")
 
         public string Name { get; set; }
+        // Physical location/address of the branch
+
         public string Location { get; set; }
 
 
