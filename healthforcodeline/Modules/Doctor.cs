@@ -131,7 +131,7 @@ namespace hospitalsystem.models
 
             var record = new PatientRecord(id, patient, FullName, diagnosis, prescription, DateTime.Now);// Creates a new PatientRecord object with the provided details
             HospitalData.Records.Add(record);// Adds the new record to the hospital data records list
-            FileStorage.SaveToFile("records.json", HospitalData.Records);
+            FileStorage.SaveToFile("records.json", HospitalData.Records);// Saves the updated records list to a JSON file
 
             Console.WriteLine("Patient record added successfully.\n");
         }
