@@ -7,7 +7,7 @@
 
         public Department() { }// Default constructor
 
-        public Department(int id, string name)
+        public Department(int id, string name)// Constructor with parameters for ID and name
         {
             Id = id;
             Name = name;
