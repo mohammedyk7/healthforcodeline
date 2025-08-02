@@ -177,7 +177,7 @@ namespace hospitalsystem.services
             Console.Write("Enter Department ID to search: ");
             if (int.TryParse(Console.ReadLine(), out int id))// Check if the input is a valid number
             {
-                var dept = HospitalData.Departments.FirstOrDefault(d => d.Id == id);
+                var dept = HospitalData.Departments.FirstOrDefault(d => d.Id == id);// Search for the department by ID
                 if (dept != null)
                 {
                     Console.WriteLine($"\n🔍 Department Found:");
