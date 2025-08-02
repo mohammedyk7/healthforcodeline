@@ -127,7 +127,7 @@ namespace hospitalsystem.models
             string diagnosis = Console.ReadLine()!;// Reads the diagnosis from user input
 
             Console.Write("Enter Prescription: ");
-            string prescription = Console.ReadLine()!;
+            string prescription = Console.ReadLine()!;// Reads the prescription from user input
 
             var record = new PatientRecord(id, patient, FullName, diagnosis, prescription, DateTime.Now);
             HospitalData.Records.Add(record);
