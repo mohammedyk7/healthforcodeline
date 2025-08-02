@@ -85,6 +85,8 @@
                 int clinicId = int.Parse(Console.ReadLine()!);
 
                 doctor.ClinicId = clinicId; // Read new clinic ID
+               // Update the doctor's clinic assignment
+
                 FileStorage.SaveToFile("doctors.json", HospitalData.Doctors);
 
                 Console.WriteLine($"✅ Doctor {doctor.FullName} assigned to Clinic {clinicId}.");
