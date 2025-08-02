@@ -9,7 +9,7 @@ namespace hospitalSystem.Interface
 {//IUserService interface for core user management
     public interface IUserService
     {
-        void CreateUser(User user);
+        void CreateUser(User user);// user registration and account creation
         User? GetUserByEmail(string email);
         List<User> GetAllUsers();
     }
