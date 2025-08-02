@@ -110,7 +110,7 @@ namespace hospitalsystem.services
             Console.WriteLine("\nPress any key to return to menu...");
             Console.ReadKey();
         }
-        public static void UpdateDepartment()
+        public static void UpdateDepartment()// This method allows the user to update an existing department
         {
             Console.Write("Enter Department ID to update: ");
             if (int.TryParse(Console.ReadLine(), out int id))
