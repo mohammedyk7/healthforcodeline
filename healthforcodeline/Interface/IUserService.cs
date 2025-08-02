@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace hospitalSystem.Interface
-{
+{//IUserService interface for core user management
     public interface IUserService
     {
         void CreateUser(User user);
