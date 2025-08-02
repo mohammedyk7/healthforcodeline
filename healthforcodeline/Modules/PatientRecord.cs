@@ -1,5 +1,6 @@
 ﻿namespace hospitalsystem.models
-{
+{    // Represents a medical record for a patient, including visit details, diagnosis, and prescription
+
     public class PatientRecord
     {
         public int Id { get; set; }
