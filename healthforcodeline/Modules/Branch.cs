@@ -24,6 +24,7 @@
             Name = name;
             Location = location;
         }
+        // Display branch information in a readable format
 
         public void Display()
         {
