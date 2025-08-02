@@ -11,6 +11,7 @@ namespace hospitalsystem.models
             var json = JsonSerializer.Serialize(data, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(fileName, json);
         }
+        // Loads and deserializes data of type T from a specified file.
 
         public static List<T> LoadFromFile<T>(string fileName)
         {
