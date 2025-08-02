@@ -1,8 +1,9 @@
 ﻿namespace hospitalsystem.models
-{
+{      // Admin class inherits from User and adds specific functionality for Admins
+
     public class Admin : User
     {
-      // Admin class inherits from User and adds specific functionality for Admins
+        // Parameterless constructor for file deserialization or default initialization
 
         public Admin() { }
 
