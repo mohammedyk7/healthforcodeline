@@ -78,7 +78,7 @@ namespace hospitalsystem.models
                 .Where(b => b.DoctorEmail.Equals(Email, StringComparison.OrdinalIgnoreCase))// Filters bookings by the current doctor's email
                 .ToList();// Converts the filtered bookings to a list
 
-            if (myBookings.Count == 0)
+            if (myBookings.Count == 0)// Checks if there are no bookings for the doctor
             {
                 Console.WriteLine("No appointments found.\n");
                 return;
