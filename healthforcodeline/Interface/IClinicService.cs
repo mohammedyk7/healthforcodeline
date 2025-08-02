@@ -9,7 +9,7 @@ namespace hospitalsystem.Interface
 {
     interface IClinicService
     {
-        public interface IClinicService
+        public interface IClinicService// Interface for clinic management operations
         {
             void AddClinic(Clinic clinic);
             List<Clinic> GetAllClinics();
