@@ -16,6 +16,7 @@ namespace hospitalSystem.Interface
 
         //create new patient medical records
         void AddRecord(PatientRecord record);
+        //retrieve all existing records
         List<PatientRecord> GetAllRecords();
         PatientRecord? GetRecordById(int id);
         List<PatientRecord> GetRecordsByPatientId(int patientId);
