@@ -10,7 +10,7 @@
         public int DepartmentId { get; set; }// Identifier for the department the clinic belongs to 
         public int BranchId { get; set; }// Identifier for the branch the clinic is associated with
 
-        public Clinic() { }  
+        public Clinic() { }  // Default constructor
 
         public Clinic(int id, string name, int branchId)
         {
