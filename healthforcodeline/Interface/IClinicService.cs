@@ -13,7 +13,7 @@ namespace hospitalsystem.Interface
         {
             void AddClinic(Clinic clinic);// Add a new clinic
             List<Clinic> GetAllClinics();// Retrieve all clinics
-            Clinic? GetById(int id);
+            Clinic? GetById(int id);// Retrieve a clinic by its ID
             bool ClinicExists(int id);
         }
     }
