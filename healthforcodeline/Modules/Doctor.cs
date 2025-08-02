@@ -18,7 +18,7 @@ namespace hospitalsystem.models
         }
 
         public Doctor(string fullName, string email, string password, int clinicId)// Constructor with parameters for full name, email, password, and clinic ID
-            : base(fullName, email, password)
+            : base(fullName, email, password)// Calls the base class constructor to initialize common user properties
         {
             Role = "Doctor";
             ClinicId = clinicId;
