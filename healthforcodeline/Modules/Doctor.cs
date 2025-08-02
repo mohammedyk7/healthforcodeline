@@ -124,7 +124,7 @@ namespace hospitalsystem.models
             string patient = Console.ReadLine()!;// Reads the patient's name from user input
 
             Console.Write("Enter Diagnosis: ");
-            string diagnosis = Console.ReadLine()!;
+            string diagnosis = Console.ReadLine()!;// Reads the diagnosis from user input
 
             Console.Write("Enter Prescription: ");
             string prescription = Console.ReadLine()!;
