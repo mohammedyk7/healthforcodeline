@@ -18,7 +18,7 @@ namespace hospitalsystem.models
         {
             DoctorEmail = email;// Initialize the doctor's email
             StartTime = start;// Initialize the start time of availability
-            EndTime = end;
+            EndTime = end;// Initialize the end time of availability
         }
 
         public void Display()
