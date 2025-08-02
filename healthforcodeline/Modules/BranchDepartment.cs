@@ -1,5 +1,6 @@
 ﻿namespace hospitalsystem.models
-{
+{    // Represents a many-to-many relationship between branches and departments
+
     public class BranchDepartment
     {
         public int BranchId { get; set; }
