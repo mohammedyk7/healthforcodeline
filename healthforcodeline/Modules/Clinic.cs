@@ -5,7 +5,7 @@
 
     
 
-        public int Id { get; set; }
+        public int Id { get; set; }// Unique identifier for the clinic
         public string Name { get; set; }
         public int DepartmentId { get; set; }
         public int BranchId { get; set; }
