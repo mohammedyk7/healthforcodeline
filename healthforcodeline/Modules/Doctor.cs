@@ -70,7 +70,7 @@ namespace hospitalsystem.models
             }
         }
 
-        public void ViewMyAppointments()
+        public void ViewMyAppointments()// Displays the doctor's appointments
         {
             Console.WriteLine($"\nAppointments for Dr. {FullName}:\n");
 
