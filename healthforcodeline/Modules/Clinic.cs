@@ -14,7 +14,7 @@
 
         public Clinic(int id, string name, int branchId)// Constructor with parameters for ID, name, and branch ID
         {
-            Id = id;
+            Id = id;// Initialize the clinic's ID
             Name = name;
             BranchId = branchId;
         }
