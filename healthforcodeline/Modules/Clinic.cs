@@ -29,7 +29,7 @@
 
         public void Display()// Method to display clinic information
         {
-            Console.WriteLine($"Clinic #{Id}: {Name} (Branch ID: {BranchId})");
+            Console.WriteLine($"Clinic #{Id}: {Name} (Branch ID: {BranchId})");// Display the clinic's ID, name, and branch ID
         }
     }
 }
