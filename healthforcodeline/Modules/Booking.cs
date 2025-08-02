@@ -2,6 +2,8 @@
 
 namespace hospitalsystem.models
 {
+    // Represents a booking (appointment) between a patient and a doctor at a specific clinic and date
+
     public class Booking
     {
         public int Id { get; set; }
