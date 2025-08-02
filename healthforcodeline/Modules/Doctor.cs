@@ -147,7 +147,7 @@ namespace hospitalsystem.models
             Console.Write("Enter Clinic ID: ");// Prompts the user to enter the clinic ID where the doctor will work
             int clinicId = int.Parse(Console.ReadLine()!);
 
-            var doctor = new Doctor(name, email, "123", clinicId);
+            var doctor = new Doctor(name, email, "123", clinicId);// Creates a new Doctor object with the provided details
             HospitalData.Doctors.Add(doctor);
             FileStorage.SaveToFile("doctors.json", HospitalData.Doctors);
 
