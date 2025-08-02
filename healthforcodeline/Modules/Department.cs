@@ -1,6 +1,6 @@
 ﻿namespace hospitalsystem.models
 {
-    public class Department
+    public class Department// Represents a department in the hospital system
     {
         public int Id { get; set; }
         public string Name { get; set; }
