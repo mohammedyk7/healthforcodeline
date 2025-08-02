@@ -2,7 +2,7 @@
 {
     public class Department// Represents a department in the hospital system
     {
-        public int Id { get; set; }
+        public int Id { get; set; }// Unique identifier for the department
         public string Name { get; set; }
 
         public Department() { }
