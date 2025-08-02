@@ -76,7 +76,7 @@ namespace hospitalsystem.models
 
             var myBookings = HospitalData.Bookings// Retrieves bookings where the doctor's email matches the current doctor's email
                 .Where(b => b.DoctorEmail.Equals(Email, StringComparison.OrdinalIgnoreCase))// Filters bookings by the current doctor's email
-                .ToList();
+                .ToList();// Converts the filtered bookings to a list
 
             if (myBookings.Count == 0)
             {
