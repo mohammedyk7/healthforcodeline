@@ -109,7 +109,7 @@ namespace hospitalsystem.services
                 d.FullName.Equals(name, StringComparison.OrdinalIgnoreCase) ||
                 d.Email.Equals(email, StringComparison.OrdinalIgnoreCase)))
             {// If a doctor with the same name or email already exists, show an error message
-                Console.WriteLine(" A doctor with this name or email already exists.");
+                Console.WriteLine(" A doctor with this name or email already exists.");// Show an error message if a doctor with the same name or email already exists
                 Console.ReadKey();
                 return;
             }
