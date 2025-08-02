@@ -165,15 +165,15 @@ namespace hospitalsystem.models
             string email = Console.ReadLine()!;
 
             var doctor = HospitalData.Doctors.FirstOrDefault(d => d.Email.Equals(email, StringComparison.OrdinalIgnoreCase));// Searches for the doctor in the hospital data doctors list by email
-            if (doctor == null)
+            if (doctor == null)// Checks if the doctor was found
             {
-                Console.WriteLine("❌ Doctor not found.");
+                Console.WriteLine(" Doctor not found.");
                 return;
             }
 
             doctor.IsAvailable = !doctor.IsAvailable;
             FileStorage.SaveToFile("doctors.json", HospitalData.Doctors);
-            Console.WriteLine($"Doctor availability is now: {(doctor.IsAvailable ? "✅ Available" : "❌ Unavailable")}");
+            Console.WriteLine($"Doctor availability is now: {(doctor.IsAvailable ? " Available" : " Unavailable")}");
             Console.ReadKey();
         }
 
