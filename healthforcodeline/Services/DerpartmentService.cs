@@ -172,7 +172,7 @@ namespace hospitalsystem.services
             Console.ReadKey();
         }
 
-        public static void SearchDepartment()
+        public static void SearchDepartment()// This method allows the user to search for a department by ID or name
         {
             Console.Write("Enter Department ID to search: ");
             if (int.TryParse(Console.ReadLine(), out int id))
