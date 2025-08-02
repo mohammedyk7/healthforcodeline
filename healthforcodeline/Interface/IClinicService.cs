@@ -11,7 +11,7 @@ namespace hospitalsystem.Interface
     {
         public interface IClinicService// Interface for clinic management operations
         {
-            void AddClinic(Clinic clinic);
+            void AddClinic(Clinic clinic);// Add a new clinic
             List<Clinic> GetAllClinics();
             Clinic? GetById(int id);
             bool ClinicExists(int id);
