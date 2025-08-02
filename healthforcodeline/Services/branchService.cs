@@ -73,11 +73,11 @@ namespace hospitalsystem.services
             Console.ReadKey();
         }
 
-        public static void UpdateBranch()
+        public static void UpdateBranch()// Update an existing branch based on user input
         {
             Console.Write("Enter Branch ID to update: ");
             int id = int.Parse(Console.ReadLine()!);
-            var branch = HospitalData.Branches.FirstOrDefault(b => b.Id == id);
+            var branch = HospitalData.Branches.FirstOrDefault(b => b.Id == id);// Find the branch by ID
 
             if (branch == null)
             {
