@@ -19,6 +19,7 @@ namespace hospitalSystem.Interface
 
         // Additional methods based on your diagram:
         void CreateBranch(Branch branch);
+        // add new hospital branches
         void AssignDepartmentToBranch(int departmentId, int branchId);
         void AssignBranchToDepartment(int branchId, int departmentId);
         void AssignDoctorToClinic(int doctorId, int clinicId);
