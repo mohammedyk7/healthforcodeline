@@ -105,7 +105,7 @@ namespace hospitalsystem.models
             foreach (var record in myRecords)// Iterates through each record and displays its details
                 record.Display();
 
-            Console.WriteLine($"[DEBUG] Current Doctor Name: {FullName}");
+            Console.WriteLine($"[DEBUG] Current Doctor Name: {FullName}");// Displays the current doctor's full name for debugging purposes
             Console.WriteLine($"[DEBUG] Total Records: {HospitalData.Records.Count}");
 
             foreach (var r in HospitalData.Records)
