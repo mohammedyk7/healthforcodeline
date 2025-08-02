@@ -138,7 +138,7 @@ namespace hospitalsystem.models
 
         public void CreateDoctor()// Prompts the user to enter details for a new doctor and adds it to the hospital data
         {
-            Console.Write("Enter Doctor Name: ");
+            Console.Write("Enter Doctor Name: ");// Prompts the user to enter the doctor's name
             string name = Console.ReadLine()!;
 
             Console.Write("Enter Doctor Email: ");
