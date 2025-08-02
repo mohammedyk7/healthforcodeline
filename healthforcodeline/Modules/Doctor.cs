@@ -75,7 +75,7 @@ namespace hospitalsystem.models
             Console.WriteLine($"\nAppointments for Dr. {FullName}:\n");
 
             var myBookings = HospitalData.Bookings// Retrieves bookings where the doctor's email matches the current doctor's email
-                .Where(b => b.DoctorEmail.Equals(Email, StringComparison.OrdinalIgnoreCase))
+                .Where(b => b.DoctorEmail.Equals(Email, StringComparison.OrdinalIgnoreCase))// Filters bookings by the current doctor's email
                 .ToList();
 
             if (myBookings.Count == 0)
