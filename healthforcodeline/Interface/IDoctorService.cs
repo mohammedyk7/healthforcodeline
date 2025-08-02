@@ -11,7 +11,7 @@ namespace hospitalsystem.Interface
     public interface IDoctorService// Interface for doctor management operations
     {
        
-       public void DisplayDoctorMenu();
+       public void DisplayDoctorMenu();// display the doctor management menu
        
     }
 }
