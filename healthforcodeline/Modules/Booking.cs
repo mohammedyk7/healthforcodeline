@@ -22,9 +22,13 @@ namespace hospitalsystem.models
 
         public DateTime AppointmentDate { get; set; }
         // Indicates if the booking has been cancelled
+        // Optional reason provided when the booking is cancelled
 
         public bool IsCancelled { get; set; } = false;
+
+
         public string? CancellationReason { get; set; }
+        // Parameterless constructor (useful for deserialization or manual setting)
 
         public Booking() { }
 
