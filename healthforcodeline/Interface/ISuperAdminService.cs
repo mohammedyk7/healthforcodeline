@@ -10,6 +10,7 @@ namespace hospitalSystem.Interface
     // ISuperAdminService.cs
     public interface ISuperAdminService
     {
+        //register new super admin accounts
         void CreateSuperAdmin(SuperAdmin superAdmin);
         List<SuperAdmin> GetAllSuperAdmins();
         SuperAdmin? GetSuperAdminByEmail(string email);
