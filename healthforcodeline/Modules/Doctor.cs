@@ -161,7 +161,7 @@ namespace hospitalsystem.models
 
         public static void ToggleDoctorAvailability()// Prompts the user to enter a doctor's email and toggles their availability status
         {
-            Console.Write("Enter Doctor Email to toggle availability: ");
+            Console.Write("Enter Doctor Email to toggle availability: ");// Prompts the user to enter the email of the doctor whose availability they want to toggle
             string email = Console.ReadLine()!;
 
             var doctor = HospitalData.Doctors.FirstOrDefault(d => d.Email.Equals(email, StringComparison.OrdinalIgnoreCase));
