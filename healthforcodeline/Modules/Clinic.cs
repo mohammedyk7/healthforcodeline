@@ -7,7 +7,7 @@
 
         public int Id { get; set; }// Unique identifier for the clinic
         public string Name { get; set; }// Name of the clinic
-        public int DepartmentId { get; set; }
+        public int DepartmentId { get; set; }// Identifier for the department the clinic belongs to 
         public int BranchId { get; set; }
 
         public Clinic() { }  
