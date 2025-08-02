@@ -27,7 +27,7 @@
         }
 
 
-        public void Display()
+        public void Display()// Method to display clinic information
         {
             Console.WriteLine($"Clinic #{Id}: {Name} (Branch ID: {BranchId})");
         }
