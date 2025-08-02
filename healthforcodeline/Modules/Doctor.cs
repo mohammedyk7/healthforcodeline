@@ -99,7 +99,7 @@ namespace hospitalsystem.models
 
         }
 
-        public void ViewMyRecords()
+        public void ViewMyRecords()// Displays the doctor's patient records
         {
             var myRecords = HospitalData.Records.Where(r => r.DoctorName == FullName);
             foreach (var record in myRecords)
