@@ -13,6 +13,7 @@
         {
             Role = "Admin";
         }
+        // Unique identifier for the admin
 
         public string Id { get; set; } = Guid.NewGuid().ToString();
 
